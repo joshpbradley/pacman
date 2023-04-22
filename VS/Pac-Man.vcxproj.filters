@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{f35df93c-31bf-4fe5-8c56-70582126ca34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game entities">
+      <UniqueIdentifier>{f58e9c74-955c-4053-aeb9-45aeae8568c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game entities\Static">
+      <UniqueIdentifier>{8e80d2fc-ffcf-4187-b541-d35a283721ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game entities\Movable">
+      <UniqueIdentifier>{534d0c22-4923-4d78-b772-8511e1871aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\World">
+      <UniqueIdentifier>{cf8fdefa-6d25-49ff-99c5-564e289a7b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{67366adf-bb55-47fe-87c1-8a3b92381615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{407f4558-6586-4bc4-8b47-e4c33e7ecfdd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Avatar.cpp" />
+    <ClCompile Include="..\src\Dot.cpp" />
+    <ClCompile Include="..\src\Drawer.cpp" />
+    <ClCompile Include="..\src\GameEntity.cpp" />
+    <ClCompile Include="..\src\Ghost.cpp" />
+    <ClCompile Include="..\src\Main.cpp" />
+    <ClCompile Include="..\src\MovableGameEntity.cpp" />
+    <ClCompile Include="..\src\PacMan.cpp" />
+    <ClCompile Include="..\src\PowerPellet.cpp" />
+    <ClCompile Include="..\src\ResourceManager.cpp" />
+    <ClCompile Include="..\src\StaticGameEntity.cpp" />
+    <ClCompile Include="..\src\Tile.cpp" />
+    <ClCompile Include="..\src\World.cpp" />
+    <ClCompile Include="..\src\Timer.cpp" />
+    <ClCompile Include="..\src\RedGhost.cpp" />
+    <ClCompile Include="..\src\PinkGhost.cpp" />
+    <ClCompile Include="..\src\OrangeGhost.cpp" />
+    <ClCompile Include="..\src\CyanGhost.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Avatar.h" />
+    <ClInclude Include="..\src\Dot.h" />
+    <ClInclude Include="..\src\Drawer.h" />
+    <ClInclude Include="..\src\GameEntity.h" />
+    <ClInclude Include="..\src\Ghost.h" />
+    <ClInclude Include="..\src\MovableGameEntity.h" />
+    <ClInclude Include="..\src\PacMan.h" />
+    <ClInclude Include="..\src\PowerPellet.h" />
+    <ClInclude Include="..\src\ResourceManager.h" />
+    <ClInclude Include="..\src\StaticGameEntity.h" />
+    <ClInclude Include="..\src\Tile.h" />
+    <ClInclude Include="..\src\Vector2.h" />
+    <ClInclude Include="..\src\World.h" />
+    <ClInclude Include="..\src\Timer.h" />
+    <ClInclude Include="..\src\RedGhost.h" />
+    <ClInclude Include="..\src\PinkGhost.h" />
+    <ClInclude Include="..\src\OrangeGhost.h" />
+    <ClInclude Include="..\src\CyanGhost.h" />
+  </ItemGroup>
+</Project>

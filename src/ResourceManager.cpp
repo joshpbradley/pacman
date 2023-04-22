@@ -59,12 +59,12 @@ void ResourceManager::GenerateAssetPath() {
   str_result.erase(str_result.begin() + str_result.rfind("\\"), str_result.end());
 
 
-  auto project_dir_pos = str_result.rfind("Pac-Man");
+  auto project_dir_pos = str_result.rfind("pacman");
   if (project_dir_pos == std::string::npos) {
-    throw std::ios_base::failure("Unexpected execution environment. Executable must be ran within the project directory (\"\\Pac-Man...\")");
+    throw std::ios_base::failure("Unexpected execution environment. Executable must be ran within the project directory (\"\\pacman...\")");
   }
 
-  str_result.replace(str_result.begin() + str_result.rfind("Pac-Man")+7, str_result.end(),
+  str_result.replace(str_result.begin() + str_result.rfind("pacman")+6, str_result.end(),
     "\\assets\\");
 
   kAssetPath = str_result;
