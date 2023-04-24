@@ -26,7 +26,7 @@ The font was sourced online and is freely available for use in personal projects
 
 ***I received explicit permission from the company to add this project to my portfolio.***  
 
-**SCREENSHOTS**
+**GALLERY**
 
 ![Start](https://user-images.githubusercontent.com/48052531/233742700-7a5d1e9e-93fa-4480-bcd8-c5229c25791b.png)
 
