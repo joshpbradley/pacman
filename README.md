@@ -1,4 +1,4 @@
-# pacman
+# Pac-Man Recreation
 A recreation of Namco's classic arcade game, Pac-Man (1980), written in C++.
 
 **GAMEPLAY**
